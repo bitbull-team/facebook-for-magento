@@ -40,8 +40,8 @@ class Facebook_AdsExtension_Block_Common extends Mage_Core_Block_Template {
   }
 
   public function getFacebookAgentVersion() {
-    return 'exmagento-'
-      . $this->getMagentoVersion() . '-' . $this->getPluginVersion();
+    return 'exmagento';
+      //. $this->getMagentoVersion() . '-' . $this->getPluginVersion();
   }
 
   public function getFacebookPixelID() {

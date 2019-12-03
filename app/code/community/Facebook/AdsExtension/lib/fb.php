@@ -22,7 +22,9 @@ if (!class_exists('FacebookAdsExtension', false)) {
     }
 
     public static function getMagentoVersion() {
-      return Mage::getVersion();
+        return '';
+        //confidential information
+        //return Mage::getVersion();
     }
 
     private static function maybeUseHTTPS() {
