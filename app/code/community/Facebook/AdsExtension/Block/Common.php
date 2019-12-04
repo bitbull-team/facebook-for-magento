@@ -49,6 +49,8 @@ class Facebook_AdsExtension_Block_Common extends Mage_Core_Block_Template {
   }
 
   public function pixelInitCode() {
+      return "{}";
+      //confidential information
     if (!Mage::getSingleton('customer/session')->isLoggedIn() ||
       !Mage::getStoreConfig('facebook_ads_toolbox/fbpixel/pixel_use_pii') ||
       Mage::getStoreConfig('facebook_ads_toolbox/fbpixel/pixel_use_pii') === '0') {
