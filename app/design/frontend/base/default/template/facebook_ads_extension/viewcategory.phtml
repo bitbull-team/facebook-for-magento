@@ -1,9 +1,9 @@
 <?php if ($this->getFacebookPixelID()) { ?>
  <script>
   fbq('trackCustom', 'ViewCategory', {
-    source: 'magento',
+    source: 'magento'
  <?php if ($this->getCategory()) { ?>
-  , content_category: "<?php echo $this->getCategory() ?>"
+    ,content_category: "<?php echo $this->getCategory() ?>"
   <?php } ?>
   });
  </script>

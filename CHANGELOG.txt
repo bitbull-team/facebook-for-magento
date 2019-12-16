@@ -5,6 +5,7 @@ Unreleased
 - fixed missing phtml in modman
 - fixed json declaration
 - removed customer information
+- fixed view category track
 
 2019-05-06 version 2.6.3
 - Security patch
