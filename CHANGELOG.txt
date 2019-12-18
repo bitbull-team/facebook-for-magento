@@ -1,6 +1,6 @@
 *** Facebook Business Extension For Magento Changelog ***
 
-Unreleased
+2019-12-18 version 2.6.4
 - Removed confidential information about magento and fb module on frontend
 - fixed missing phtml in modman
 - fixed json declaration
